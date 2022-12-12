@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+   <h2>Enquiry</h2> 
+   <form>
+    <fieldset>
+        <legend>enquiry</legend>
+    Name: <input type="text" name="name" Value="" placeholder="enter your name here..."/>
+    <br/>
+    <br/>
+    Address: <textarea name="address"></textarea>
+    <br/>
+    <br/>
+    Gender:
+    <input type="radio" value="m" name="gender"/> Male
+    <input type="radio" value="f" name="gender"/> Female
+    <input type="radio" value="o" name="gender"/> Others
+    <br/>
+    <br/>
+    Country:
+    <select>
+        <option>Select the Country</option>
+        <optiongroup label="ASIA">
+            <option Value="india">India</option>
+            <option Value="sri lanka">Sri Lanka</option>
+        </optiongroup>
+        <option Value="usa">USA</option>
+        <option Value="Australia">Australia</option>
+        <option Value="China">China</option>
+        <option Value="south africa">South Africa</option>
+    </select>
+    <br/>
+    <br/>
+    Hobbies:
+    <input type="checkbox" name="hobbies">dancing
+    <input type="checkbox" name="hobbies">singing
+    <input type="checkbox" name="hobbies">painting.
+    <br/>
+    <br/>
+    Image:
+    <input type="file" name="Image"/>
+    <br/>
+    <br/>
+    <input type="Submit" value="Send"/>
+    <input type="Reset" value="Reset"/>
+</fieldset>
+   </form>
+</body>
+</html>
